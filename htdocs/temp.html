@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AMA</title>    
+	<link rel="stylesheet" href="css/foundation.css"/>
+	
+	<!-- Own styles -->
+	<link rel="stylesheet" href="css/style.css"/>
+	
+	<!-- jCarrousel -->
+	<link rel="stylesheet" type="text/css" href="css/jcarousel.responsive.css">
+	<script type="text/javascript" src="js/vendor/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="js/jcarousel.responsive.js"></script>
+
+
+	<script src="js/vendor/modernizr.js"></script>
+  </head>
+  
+	<body class='background-yellow'>
+	
+
+	
+	
+	
+		<table id="main_page">
+			
+			
+			
+			<!-- Header -->
+			<tr>
+				<td id='header' valign="top">
+				
+				
+					
+					<div class='margin-top-med row wide-90'>
+					
+					
+					
+						<div class='large-6 columns'>
+						
+							<img src="http://placehold.it/250x100">
+						</div>
+						<div class='large-6 columns'>
+							<img src="http://placehold.it/350x100">
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					
+				</td>
+			</tr>
+			
+			<!-- Main -->
+			<tr>
+				<td>
+					<!-- Body -->
+					<div class='row margin-top-small'>
+						<div class='large-8 columns'>
+							<img src="http://placehold.it/350x400"/>
+						</div>
+						<div class='large-4 columns'>
+							<img src="http://placehold.it/150x400"/>
+						</div>
+					</div>
+					
+
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<!-- jCarrousel -->
+					<div class='row'>
+						<div class="wrapper">
+							<div class="jcarousel-wrapper">
+								<div class="jcarousel">
+									<ul>
+										<li><img src="img/img1.jpg" alt="Image 1"></li>
+										<li><img src="img/img2.jpg" alt="Image 2"></li>
+										<li><img src="img/img3.jpg" alt="Image 3"></li>
+										<li><img src="img/img4.jpg" alt="Image 4"></li>
+										<li><img src="img/img5.jpg" alt="Image 5"></li>
+										<li><img src="img/img6.jpg" alt="Image 6"></li>
+									</ul>
+								</div>
+								<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+								<a href="#" class="jcarousel-control-next">&rsaquo;</a>
+								<p class="jcarousel-pagination"></p>
+							</div>
+						</div>
+					</div>
+				</td>
+			</tr>
+			
+			
+			<!-- Footer -->
+			<tr>
+				<td id="footer" valign="bottom">
+					<div class='full-width full-height'>Copyright some evil company...</div>
+				</td>
+			</tr>
+		</table>	
+
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/foundation.min.js"></script>
+
+		<script>
+			$(document).foundation();
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Quote rotator */
+.cbp-qtrotator {
+    position: relative;
+    margin: 3em auto 5em auto;
+    max-width: 800px;
+    width: 100%;
+    min-height: 400px;
+}
+ 
+.cbp-qtrotator .cbp-qtcontent {
+    position: absolute;
+    min-height: 200px;
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 2em 0;
+    top: 0;
+    z-index: 0;
+    opacity: 0;
+    width: 100%;
+}
+ 
+.no-js .cbp-qtrotator .cbp-qtcontent {
+    border-bottom: none;
+}
+ 
+/* Currently visible */
+.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
+.no-js .cbp-qtrotator .cbp-qtcontent {
+    position: relative;
+    z-index: 100;
+    pointer-events: auto;
+    opacity: 1;
+}
+ 
+.cbp-qtrotator .cbp-qtcontent:before,
+.cbp-qtrotator .cbp-qtcontent:after {
+    content: " ";
+    display: table;
+}
+ 
+.cbp-qtrotator .cbp-qtcontent:after {
+    clear: both;
+}
+ 
+.cbp-qtprogress {
+    position: absolute;
+    background: #47a3da;
+    height: 1px;
+    width: 0%;
+    top: 0;
+    z-index: 1000;
+}
+ 
+.cbp-qtrotator blockquote {
+    margin: 0;
+    padding: 0;
+}
+ 
+.cbp-qtrotator blockquote p {
+    font-size: 2em;
+    color: #888;
+    font-weight: 300;
+    margin: 0.4em 0 1em;
+}
+ 
+.cbp-qtrotator blockquote footer {
+    font-size: 1.2em;
+}
+ 
+.cbp-qtrotator blockquote footer:before {
+    content: '? ';
+}
+ 
+.cbp-qtrotator .cbp-qtcontent img {
+    float: right;
+    margin-left: 3em;
+}
+ 
+/* Example for media query */
+@media screen and (max-width: 30.6em) {
+ 
+    .cbp-qtrotator {
+        font-size: 70%;
+    }
+ 
+    .cbp-qtrotator img {
+        width: 80px;
+    }
+ 
+}
+
+
+
+
+
+<li>
+									<a href="#" data-reveal-id="myModal">
+										<img src="img/img1.jpg" alt="Image 1">
+										<div class='text-center'>
+											<h5>text</h5>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" data-reveal-id="myModal">
+										<img class='grayed' src="img/img2.jpg" alt="Image 1">
+										<div class='text-center'>
+											<h5>text</h5>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" data-reveal-id="myModal">
+										<img src="img/img3.jpg" alt="Image 1">
+										<div class='text-center'>
+											<h5>text</h5>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" data-reveal-id="myModal">
+										<img class='grayed' src="img/img4.jpg" alt="Image 1">
+										<div class='text-center'>
+											<h5>text</h5>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" data-reveal-id="myModal">
+										<img src="img/img5.jpg" alt="Image 1">
+										<div class='text-center'>
+											<h5>text</h5>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" data-reveal-id="myModal">
+										<img src="img/img6.jpg" alt="Image 1">
+										<div class='text-center'>
+											<h5>text</h5>
+										</div>
+									</a>
+								</li>
+								
+								
+								
+								
+								
+								
+											<!-- Header -->
+			<div class='row wide gray'>
+				<div id='header' class='margin-top-small'>
+					<div class='large-2 columns'>
+						<img src='img/logo-small.png'/>
+					</div>
+					<div class='large-6 columns'></div>
+					
+					<div class='large-4 columns'>
+							<div class='row'>
+								<div class='large-6 small-6 columns'>
+									<a href="#" data-reveal-id="contact-modal">
+										<div class='text-center'>
+											<!-- <i class="fa fa-phone fa-3x"></i> -->
+											<p class='no-margin'><strong>CONTACTO</strong></p>
+										</div>
+									</a>
+									<div id="contact-modal" class="reveal-modal" data-reveal>
+										<h2>CONTACTO</h2>
+										<p class="lead">Your couch.  It is mine.</p>
+										<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</div>
+								<div class='large-6 small-6 columns'>
+									<a href="#" data-reveal-id="us-modal">
+										<div class='text-center'>
+											<!-- <i class="fa fa-users fa-3x"></i> -->
+											<p class='no-margin'><strong>NOSOTROS</strong></p>
+										</div>
+									</a>
+									<div id="us-modal" class="reveal-modal" data-reveal>
+										<h2>NOSOTROS</h2>
+										<p class="lead">Your couch.  It is mine.</p>
+										<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			http://www.hotnick.com/wp-content/uploads/2013/03/Studio-Music-Design3.jpg
+			http://www.wallpaper4me.com/images/wallpapers/afterhoursstudio%282%29-215654.jpeg
+			http://wholles.com/wp-content/uploads/2014/01/Headphones-Music-Wallpaper.jpg
+			http://wholles.com/wp-content/uploads/2014/02/Stores-Music.jpg
+			http://wholles.com/wp-content/uploads/2014/02/Black-Sennheiser-Headphones.jpg
