@@ -94,21 +94,26 @@
 									
 									
 									<div id="modal-contact" class="reveal-modal" data-reveal>
-										<h2>CONTACTO</h2>										
-										<p class="lead">Cuentanos sobre tu proyecto musical</p>										
+										<h2>CONTACTO</h2>
+										<p class="lead">Haz realidad tu proyecto musical, contactanos directamente al numero <span class='blue'>+52 (33) 0000 0000</span>, escribenos a <a href="mailto:contacto@ama-creative.com"><span class="blue">contacto@ama-creative.com</span></a> o llena la siguiente forma.</p>
+										
 										<form data-abide action="#" method='POST' class='custom'>
 											<div class='row'>
 												<div class='row'>
-													<div class='large-6 columns'>
+													<div class='large-4 columns'>
 														<h5>Nombre</h5>
-														<input type='text' name="username" required></input>
+														<input type='text' name="username" required /></input>
 														<small class="error">Cuál es tu nombre?</small>
 													</div>				
-													<div class="large-6 columns">
+													<div class="large-4 columns">
 														<h5>E-mail</h5>
-														<input type='email' name='email' required>
+														<input type='email' name='email' required />
 														<small class="error">Cuál es tu mail?</small>
-													</div>				
+													</div>
+													<div class="large-4 columns">
+														<h5>Teléfono <small>(opcional)</small></h5>
+														<input type='text' name='phone' />														
+													</div>
 													<!-- <div class='large-6 left columns'>
 														<h5>Otro</h5>
 														<input type='text' name="ideaname" placeholder="Ultra-turbo-helper or Octo-mobile-organizer" required></input>
@@ -129,7 +134,8 @@
 													<button type='submit'>Enviar</button>
 												</div>
 											</div>
-										</form>										
+										</form>
+										
 										
 										<a class="close-reveal-modal">&#215;</a>
 									</div>
@@ -436,8 +442,17 @@
 		
 		<div id="myModal" class="reveal-modal" data-reveal>
 			<h2>Songname</h2>
-			<p class="lead">Your couch.  It is mine.</p>
-			<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+			<!-- Erase the next line comment if we want a subtitle -->
+			<!-- <p class="lead">Your couch.  It is mine.</p> -->
+			<div class='row'>
+				<div class='large-12 large-centered columns'>
+					<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/86879216&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<p class='margin-top-med'>I'm a cool paragraph that lives inside of an even cooler modal. Wins! I'm a cool paragraph that lives inside of an even cooler modal. Wins! I'm a cool paragraph that lives inside of an even cooler modal. Wins! I'm a cool paragraph that lives inside of an even cooler modal. Wins! I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+					<div class='text-center'>
+						<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+					</div>
+				</div>
+			</div>
 			<a class="close-reveal-modal">&#215;</a>
 		</div>
 									
