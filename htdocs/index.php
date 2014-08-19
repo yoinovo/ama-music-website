@@ -1,6 +1,6 @@
 <?php
 	$quotes = array(
-			array("Quote from Quote from Quote from Quote from Quote from Quote from 1", "Author 1"),
+			array("Romper bolas es cool", "Daviano"),
 			array("Quote from Quote from Quote from Quote from Quote from Quote from 2", "Author 2"),
 			array("Quote from Quote from Quote from Quote from Quote from Quote from 3", "Author 3"),
 		);	
