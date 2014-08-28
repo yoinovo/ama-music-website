@@ -1,9 +1,12 @@
 <?php
 	$quotes = array(
-			array("Quote from Quote from Quote from Quote from Quote from Quote from 1", "Author 1"),
-			array("Quote from Quote from Quote from Quote from Quote from Quote from 2", "Author 2"),
-			array("Quote from Quote from Quote from Quote from Quote from Quote from 3", "Author 3"),
-		);	
+		array("One good thing about music, when it hits you, you feel no pain", "Bob Marley"),
+		array("Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything", "Plato"),
+		array("Music expresses that which cannot be said and on which it is impossible to be silent.", "Victor Hugo"),
+		array("Music washes away from the soul the dust of everyday life.", "Berthold Auerbach"),
+		array("Music washes away from the soul the dust of everyday life.", "Jimi Hendrix"),
+		array("If my music can change someone’s mood for the better even a little bit, that’s amazing.", "Yanni"),
+	);	
 ?>
 
 <!DOCTYPE html>
@@ -95,7 +98,7 @@
 									
 									<div id="modal-contact" class="reveal-modal" data-reveal>
 										<h2>CONTACTO</h2>
-										<p class="lead">Haz realidad tu proyecto musical, contactanos directamente al numero <span class='blue'>+52 (33) 0000 0000</span>, escribenos a <a href="mailto:contacto@ama-creative.com"><span class="blue">contacto@ama-creative.com</span></a> o llena la siguiente forma.</p>
+										<p class="lead">Haz realidad tu proyecto musical, contactanos directamente al numero <span class='blue'>+52 (33) 0000 0000</span>, escribenos a <a href="mailto:info@ama-creative.com"><span class="blue">info@ama-creative.com</span></a> o llena la siguiente forma.</p>
 										
 										<form data-abide action="#" method='POST' class='custom'>
 											<div class='row'>
@@ -146,24 +149,27 @@
 										<h2>NOSOTROS</h2>
 										<p class="lead">Nuestro equipo esta conformado por:</p>
 										<div class="row margin-top-small">
-											<div class="large-2 columns"><img src="http://placehold.it/250x250"/></div>
-											<div id="large-10 columns">
-												<h4>Nombre 1</h4>
-												<p>Descripcion 1</p>
+											<div class="large-2 columns"><img src="/img/andres.jpg"/></div>
+											<div id="large-10 columns" class='margin-top-med'>
+												<h4><b>Andrés Malacara Mier y Terán</b></h4>
+												<p>Estudió Ingeniería en Audio (2006 - 2007), Producción Musical (2007 - 2008) y Mezcla y Masterizacón en Uxmalase. En 2010 estudió Producción y Post-producción de Cine y Televisión en Trebas Institute, en Toronto, Ontario, Canada. Actualmente estudia la licenciatura de Derecho en el ITESO.</p>
+												<a href="mailto:andres@ama-creative.com"><span class="blue">andres@ama-creative.com</span></a>
 											</div>
 										</div>
 										<div class="row margin-top-small">
-											<div class="large-2 columns"><img src="http://placehold.it/250x250"/></div>
-											<div id="large-10 columns">
-												<h4>Nombre 2</h4>
-												<p>Descripcion 2</p>
+											<div class="large-2 columns"><img src="/img/carlos.jpg"/></div>
+											<div id="large-10 columns" class='margin-top-med'>
+												<h4><b>Carlos Andrés Arellano Pichardo</b></h4>
+												<p>Estudió Ingeniería en Audio (2006 - 2007), Producción Musical (2007 - 2008) y Mezcla y Masterizacón en Uxmalase. En 2011 estudió en Achemea College, en Londres, Inglaterra, en donde se graduó con un diplomado en Ingeniería en Audio en Estudio de Grabación y Audio en Vivo.</p>
+												<a href="mailto:carlos@ama-creative.com"><span class="blue">carlos@ama-creative.com</span></a>
 											</div>
 										</div>
 										<div class="row margin-top-small">
-											<div class="large-2 columns"><img src="http://placehold.it/250x250"/></div>
-											<div id="large-10 columns">
-												<h4>Nombre 3</h4>
-												<p>Descripcion 3</p>
+											<div class="large-2 columns"><img src="/img/david.jpg"/></div>
+											<div id="large-10 columns" class='margin-top-med'>
+												<h4><b>David Anguiano</b></h4>
+												<p>Experto en composición musical.</p>
+												<a href="mailto:david@ama-creative.com"><span class="blue">david@ama-creative.com</span></a>
 											</div>
 										</div>
 										<a class="close-reveal-modal">&#215;</a>
@@ -328,39 +334,150 @@
 						<div class="jcarousel">
 							<ul id='mycarousel'>
 								<li>
-									<img class='ama-educational' src="img/img1.jpg" alt="Image 1" data-reveal-id="myModal">
+									<img class='ama-educational' src="/img/feosong.jpg" alt="Image 1" data-reveal-id="feosong" />
 									<div class='text-center'>
-										<h5>text</h5>
+										<h5>The Feo Song</h5>
+									</div>
+									<div id="feosong" class="reveal-modal" data-reveal>
+										<h2>The Feo Song</h2>
+										<!-- Erase the next line comment if we want a subtitle -->
+										<!-- <p class="lead">Your couch.  It is mine.</p> -->
+										<div class='row'>
+											<div class='large-12 large-centered columns'>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/ama-audio/the-feo-song"></iframe>
+												<p class='margin-top-med'>Proyecto en donde el equipo AMA compuso un tema para el patólogo y maestro de Kaplan Medical, en Estados Unidos, John Barone M.D. El tema explica la fisiopatología del tumor llamado Feocromocitoma, mediante una cómica historia de un chico muy feo en la disco.</p>
+												<div class='text-center'>
+													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+												</div>
+											</div>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
 									</div>
 								</li>
 								<li>
-									<img class='ama-personal' src="img/img2.jpg" alt="Image 1" data-reveal-id="myModal">
+									<img class='ama-educational' src="/img/lagrima.jpg" alt="Image 1" data-reveal-id="lagrima" />
 									<div class='text-center'>
-										<h5>text</h5>
+										<h5>Lágrima al Riñón</h5>
+									</div>
+									<div id="lagrima" class="reveal-modal" data-reveal>
+										<h2>Lágrima al Riñon</h2>
+										<!-- Erase the next line comment if we want a subtitle -->
+										<!-- <p class="lead">Your couch.  It is mine.</p> -->
+										<div class='row'>
+											<div class='large-12 large-centered columns'>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/86879216&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+												<p class='margin-top-med'>Proyecto de composición para el patólogo y maestro de Kaplan Medical, en Estados Unidos, John Barone M.D. El tema explica el Síndrome Nefrítico, mediante una historia del paciente ficticio Mr. Jones.</p>
+												<div class='text-center'>
+													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+												</div>
+											</div>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
 									</div>
 								</li>
 								<li>
-									<img class='ama-company' src="img/img3.jpg" alt="Image 1" data-reveal-id="myModal">
+									<img class='ama-artists' src="/img/segunda.jpg" alt="Image 1" data-reveal-id="segunda" />
 									<div class='text-center'>
-										<h5>text</h5>
+										<h5>La segunda</h5>
+									</div>
+									<div id="segunda" class="reveal-modal" data-reveal>
+										<h2>La segunda</h2>
+										<!-- Erase the next line comment if we want a subtitle -->
+										<!-- <p class="lead">Your couch.  It is mine.</p> -->
+										<div class='row'>
+											<div class='large-12 large-centered columns'>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/ama-audio/the-feo-song"></iframe>
+												<p class='margin-top-med'>Composición y producción para Mary Isabl, una artista de Guadalajara. El tema fué desarrollado en torno a una maqueta.</p>
+												<div class='text-center'>
+													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+												</div>
+											</div>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
 									</div>
 								</li>
 								<li>
-									<img class='ama-educational' src="img/img4.jpg" alt="Image 1" data-reveal-id="myModal">
+									<img class='ama-artists' src="/img/losdemas.jpg" alt="Image 1" data-reveal-id="losdemas" />
 									<div class='text-center'>
-										<h5>text</h5>
+										<h5>Como los demás</h5>
+									</div>
+									<div id="losdemas" class="reveal-modal" data-reveal>
+										<h2>Como los demás</h2>
+										<!-- Erase the next line comment if we want a subtitle -->
+										<!-- <p class="lead">Your couch.  It is mine.</p> -->
+										<div class='row'>
+											<div class='large-12 large-centered columns'>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/ama-audio/the-feo-song"></iframe>
+												<p class='margin-top-med'>Composición y producción para Juan Pablo Carrasco, el tema fué presentado a una disquera importante.</p>
+												<div class='text-center'>
+													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+												</div>
+											</div>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
 									</div>
 								</li>
 								<li>
-									<img class='ama-artists' src="img/img5.jpg" alt="Image 1" data-reveal-id="myModal">
+									<img class='ama-artists' src="/img/woodpirates.jpg" alt="Image 1" data-reveal-id="woodpirates" />
 									<div class='text-center'>
-										<h5>text</h5>
+										<h5>Wood & Pirates</h5>
+									</div>
+									<div id="woodpirates" class="reveal-modal" data-reveal>
+										<h2>Wood & Pirates</h2>
+										<!-- Erase the next line comment if we want a subtitle -->
+										<!-- <p class="lead">Your couch.  It is mine.</p> -->
+										<div class='row'>
+											<div class='large-12 large-centered columns'>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/ama-audio/the-feo-song"></iframe>
+												<p class='margin-top-med'>Canción producida con Eduardo Villaseñor "Müller"</p>
+												<div class='text-center'>
+													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+												</div>
+											</div>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
 									</div>
 								</li>
 								<li>
-									<img class='ama-artists' src="img/img6.jpg" alt="Image 1" data-reveal-id="myModal">
+									<img class='ama-personal' src="/img/cumple50.jpg" alt="Image 1" data-reveal-id="cumple50" />
 									<div class='text-center'>
-										<h5>text</h5>
+										<h5>Igual que Ayer</h5>
+									</div>
+									<div id="cumple50" class="reveal-modal" data-reveal>
+										<h2>Igual que Ayer</h2>
+										<!-- Erase the next line comment if we want a subtitle -->
+										<!-- <p class="lead">Your couch.  It is mine.</p> -->
+										<div class='row'>
+											<div class='large-12 large-centered columns'>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/ama-audio/the-feo-song"></iframe>
+												<p class='margin-top-med'>Composición especial de regalo de cumpleaños para una mujer de parte de su familia.</p>
+												<div class='text-center'>
+													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+												</div>
+											</div>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</li>
+								<li>
+									<img class='ama-company' src="/img/contigo.jpg" alt="Image 1" data-reveal-id="contigo" />
+									<div class='text-center'>
+										<h5>Contigo Avanzamos A.C.</h5>
+									</div>
+									<div id="contigo" class="reveal-modal" data-reveal>
+										<h2>Contigo Avanzamos A.C.</h2>
+										<!-- Erase the next line comment if we want a subtitle -->
+										<!-- <p class="lead">Your couch.  It is mine.</p> -->
+										<div class='row'>
+											<div class='large-12 large-centered columns'>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/ama-audio/the-feo-song"></iframe>
+												<p class='margin-top-med'>Composición para Contigo Avanzamos A.C., una fundación de Guadalajara cuya misión es inculcar valores en la sociedad mexicana.</p>
+												<div class='text-center'>
+													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+												</div>
+											</div>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
 									</div>
 								</li>
 							</ul>
@@ -440,25 +557,7 @@
 			</div>
 		</footer>
 		
-		<div id="myModal" class="reveal-modal" data-reveal>
-			<h2>Songname</h2>
-			<!-- Erase the next line comment if we want a subtitle -->
-			<!-- <p class="lead">Your couch.  It is mine.</p> -->
-			<div class='row'>
-				<div class='large-12 large-centered columns'>
-					<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/86879216&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-					<p class='margin-top-med'>I'm a cool paragraph that lives inside of an even cooler modal. Wins! I'm a cool paragraph that lives inside of an even cooler modal. Wins! I'm a cool paragraph that lives inside of an even cooler modal. Wins! I'm a cool paragraph that lives inside of an even cooler modal. Wins! I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-					<div class='text-center'>
-						<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
-					</div>
-				</div>
-			</div>
-			<a class="close-reveal-modal">&#215;</a>
-		</div>
-									
-									
 		<!-- Footer scripts -->
-		
 		<script>
 			$("#filter-none").click(function () {
 				removeGrays();
