@@ -181,8 +181,9 @@
 										<h2>SERVICIOS</h2>
 										<p class="lead">Otros de nuestros servicios:</p>
 										<div class='margin-top-small'>
-											<h3 class='nobreak'>Estudio</h3><!-- <p class='nobreak margin-left-small'>Grac asfsaf asfasfd</p> -->
-											<div class='row text-center'>
+											<h3 class='nobreak'>En nuestro estudio</h3><!-- <p class='nobreak margin-left-small'>Grac asfsaf asfasfd</p> -->
+											<p>Grabación, mezcla, masterización y post-producción.</p>
+											<!-- <div class='row text-center'>
 												<div class='large-3 columns'>
 													<p>Grabación</p>
 													<p>Sample text, sample text, sample text, sample text, sample text</p>
@@ -199,11 +200,11 @@
 													<p>Post-producción de audio</p>
 													<p>Sample text, sample text, sample text, sample text, sample text</p>
 												</div>
-											</div>
+											</div> -->
 										</div>
 										<div class='margin-top-small'>
-											<h3>Legal</h3>
-											<p>Sample text, sample text, sample text, sample text, sample text</p>
+											<h3>Servicios jurídicos en materia de Propiedad Intelectual</h3>
+											<p>En AMA nos interesa profesionalizar la carrera de los artistas, es por eso que ofrecemos servicios de registro de marcas, trámites ante INDAUTOR, revisión de contratos y litigios en materia de Propiedad Intelectual.</p>
 										</div>
 										<a class="close-reveal-modal">&#215;</a>
 									</div>
@@ -307,7 +308,7 @@
 								<li class='no-padding-bot'>
 									<a class='margin-right-small' id='filter-personal'>
 										<span data-tooltip class="has-tip" title="Regalos">
-											<i class="fa fa-user fa-1x-med"></i>
+											<i class="fa fa-gift fa-1x-med"></i>
 										</span>
 									</a>
 								</li>
@@ -334,7 +335,7 @@
 						<div class="jcarousel">
 							<ul id='mycarousel'>
 								<li>
-									<img class='ama-educational' src="/img/feosong.jpg" alt="Image 1" data-reveal-id="feosong" />
+									<img class='canGray ama-educational' src="/img/feosong.jpg" alt="Image 1" data-reveal-id="feosong" />
 									<div class='text-center'>
 										<h5>The Feo Song</h5>
 									</div>
@@ -344,7 +345,7 @@
 										<!-- <p class="lead">Your couch.  It is mine.</p> -->
 										<div class='row'>
 											<div class='large-12 large-centered columns'>
-												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/ama-audio/the-feo-song"></iframe>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163724150&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 												<p class='margin-top-med'>Proyecto en donde el equipo AMA compuso un tema para el patólogo y maestro de Kaplan Medical, en Estados Unidos, John Barone M.D. El tema explica la fisiopatología del tumor llamado Feocromocitoma, mediante una cómica historia de un chico muy feo en la disco.</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
@@ -355,18 +356,18 @@
 									</div>
 								</li>
 								<li>
-									<img class='ama-educational' src="/img/lagrima.jpg" alt="Image 1" data-reveal-id="lagrima" />
+									<img class='canGray ama-company' src="/img/contigo.jpg" alt="Image 1" data-reveal-id="contigo" />
 									<div class='text-center'>
-										<h5>Lágrima al Riñón</h5>
+										<h5>Contigo Avanzamos A.C.</h5>
 									</div>
-									<div id="lagrima" class="reveal-modal" data-reveal>
-										<h2>Lágrima al Riñon</h2>
+									<div id="contigo" class="reveal-modal" data-reveal>
+										<h2>Contigo Avanzamos A.C.</h2>
 										<!-- Erase the next line comment if we want a subtitle -->
 										<!-- <p class="lead">Your couch.  It is mine.</p> -->
 										<div class='row'>
 											<div class='large-12 large-centered columns'>
-												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/86879216&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-												<p class='margin-top-med'>Proyecto de composición para el patólogo y maestro de Kaplan Medical, en Estados Unidos, John Barone M.D. El tema explica el Síndrome Nefrítico, mediante una historia del paciente ficticio Mr. Jones.</p>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/101332520&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+												<p class='margin-top-med'>Composición para Contigo Avanzamos A.C., una fundación de Guadalajara cuya misión es inculcar valores en la sociedad mexicana.</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
 												</div>
@@ -376,70 +377,7 @@
 									</div>
 								</li>
 								<li>
-									<img class='ama-artists' src="/img/segunda.jpg" alt="Image 1" data-reveal-id="segunda" />
-									<div class='text-center'>
-										<h5>La segunda</h5>
-									</div>
-									<div id="segunda" class="reveal-modal" data-reveal>
-										<h2>La segunda</h2>
-										<!-- Erase the next line comment if we want a subtitle -->
-										<!-- <p class="lead">Your couch.  It is mine.</p> -->
-										<div class='row'>
-											<div class='large-12 large-centered columns'>
-												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/ama-audio/the-feo-song"></iframe>
-												<p class='margin-top-med'>Composición y producción para Mary Isabl, una artista de Guadalajara. El tema fué desarrollado en torno a una maqueta.</p>
-												<div class='text-center'>
-													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
-												</div>
-											</div>
-										</div>
-										<a class="close-reveal-modal">&#215;</a>
-									</div>
-								</li>
-								<li>
-									<img class='ama-artists' src="/img/losdemas.jpg" alt="Image 1" data-reveal-id="losdemas" />
-									<div class='text-center'>
-										<h5>Como los demás</h5>
-									</div>
-									<div id="losdemas" class="reveal-modal" data-reveal>
-										<h2>Como los demás</h2>
-										<!-- Erase the next line comment if we want a subtitle -->
-										<!-- <p class="lead">Your couch.  It is mine.</p> -->
-										<div class='row'>
-											<div class='large-12 large-centered columns'>
-												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/ama-audio/the-feo-song"></iframe>
-												<p class='margin-top-med'>Composición y producción para Juan Pablo Carrasco, el tema fué presentado a una disquera importante.</p>
-												<div class='text-center'>
-													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
-												</div>
-											</div>
-										</div>
-										<a class="close-reveal-modal">&#215;</a>
-									</div>
-								</li>
-								<li>
-									<img class='ama-artists' src="/img/woodpirates.jpg" alt="Image 1" data-reveal-id="woodpirates" />
-									<div class='text-center'>
-										<h5>Wood & Pirates</h5>
-									</div>
-									<div id="woodpirates" class="reveal-modal" data-reveal>
-										<h2>Wood & Pirates</h2>
-										<!-- Erase the next line comment if we want a subtitle -->
-										<!-- <p class="lead">Your couch.  It is mine.</p> -->
-										<div class='row'>
-											<div class='large-12 large-centered columns'>
-												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/ama-audio/the-feo-song"></iframe>
-												<p class='margin-top-med'>Canción producida con Eduardo Villaseñor "Müller"</p>
-												<div class='text-center'>
-													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
-												</div>
-											</div>
-										</div>
-										<a class="close-reveal-modal">&#215;</a>
-									</div>
-								</li>
-								<li>
-									<img class='ama-personal' src="/img/cumple50.jpg" alt="Image 1" data-reveal-id="cumple50" />
+									<img class='canGray ama-personal' src="/img/cumple50.jpg" alt="Image 1" data-reveal-id="cumple50" />
 									<div class='text-center'>
 										<h5>Igual que Ayer</h5>
 									</div>
@@ -449,7 +387,7 @@
 										<!-- <p class="lead">Your couch.  It is mine.</p> -->
 										<div class='row'>
 											<div class='large-12 large-centered columns'>
-												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/ama-audio/the-feo-song"></iframe>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163714730&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 												<p class='margin-top-med'>Composición especial de regalo de cumpleaños para una mujer de parte de su familia.</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
@@ -460,18 +398,81 @@
 									</div>
 								</li>
 								<li>
-									<img class='ama-company' src="/img/contigo.jpg" alt="Image 1" data-reveal-id="contigo" />
+									<img class='canGray ama-educational' src="/img/lagrima.jpg" alt="Image 1" data-reveal-id="lagrima" />
 									<div class='text-center'>
-										<h5>Contigo Avanzamos A.C.</h5>
+										<h5>Lágrima al Riñón</h5>
 									</div>
-									<div id="contigo" class="reveal-modal" data-reveal>
-										<h2>Contigo Avanzamos A.C.</h2>
+									<div id="lagrima" class="reveal-modal" data-reveal>
+										<h2>Lágrima al Riñon</h2>
 										<!-- Erase the next line comment if we want a subtitle -->
 										<!-- <p class="lead">Your couch.  It is mine.</p> -->
 										<div class='row'>
 											<div class='large-12 large-centered columns'>
-												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/ama-audio/the-feo-song"></iframe>
-												<p class='margin-top-med'>Composición para Contigo Avanzamos A.C., una fundación de Guadalajara cuya misión es inculcar valores en la sociedad mexicana.</p>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163724150&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+												<p class='margin-top-med'>Proyecto de composición para el patólogo y maestro de Kaplan Medical, en Estados Unidos, John Barone M.D. El tema explica el Síndrome Nefrítico, mediante una historia del paciente ficticio Mr. Jones.</p>
+												<div class='text-center'>
+													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+												</div>
+											</div>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</li>
+								<li>
+									<img class='canGray ama-artists' src="/img/segunda.jpg" alt="Image 1" data-reveal-id="segunda" />
+									<div class='text-center'>
+										<h5>La segunda</h5>
+									</div>
+									<div id="segunda" class="reveal-modal" data-reveal>
+										<h2>La segunda</h2>
+										<!-- Erase the next line comment if we want a subtitle -->
+										<!-- <p class="lead">Your couch.  It is mine.</p> -->
+										<div class='row'>
+											<div class='large-12 large-centered columns'>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/145935545&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+												<p class='margin-top-med'>Composición y producción para Mary Isabl, una artista de Guadalajara. El tema fué desarrollado en torno a una maqueta.</p>
+												<div class='text-center'>
+													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+												</div>
+											</div>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</li>
+								<li>
+									<img class='canGray ama-artists' src="/img/losdemas.jpg" alt="Image 1" data-reveal-id="losdemas" />
+									<div class='text-center'>
+										<h5>Como los demás</h5>
+									</div>
+									<div id="losdemas" class="reveal-modal" data-reveal>
+										<h2>Como los demás</h2>
+										<!-- Erase the next line comment if we want a subtitle -->
+										<!-- <p class="lead">Your couch.  It is mine.</p> -->
+										<div class='row'>
+											<div class='large-12 large-centered columns'>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163714616&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+												<p class='margin-top-med'>Composición y producción para Juan Pablo Carrasco, el tema fué presentado a una disquera importante.</p>
+												<div class='text-center'>
+													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+												</div>
+											</div>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</li>
+								<li>
+									<img class='canGray ama-artists' src="/img/woodpirates.jpg" alt="Image 1" data-reveal-id="woodpirates" />
+									<div class='text-center'>
+										<h5>Wood & Pirates</h5>
+									</div>
+									<div id="woodpirates" class="reveal-modal" data-reveal>
+										<h2>Wood & Pirates</h2>
+										<!-- Erase the next line comment if we want a subtitle -->
+										<!-- <p class="lead">Your couch.  It is mine.</p> -->
+										<div class='row'>
+											<div class='large-12 large-centered columns'>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/111247562&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+												<p class='margin-top-med'>Canción producida con Eduardo Villaseñor "Müller"</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
 												</div>
@@ -497,22 +498,22 @@
 				<div class="large-3 columns">
 					<div id='footer-icons' class='margin-top-small'>
 						<div class='large-3 small-6 columns'>
-							<a href='#'>
+							<a href='https://twitter.com/OficialAMA' target='_blank'>
 								<i class="fa fa-twitter fa-2x"></i>
 							</a>
 						</div>
 						<div class='large-3 small-6 columns'>
-							<a href='#'>
+							<a href='https://www.facebook.com/AMAcreativo' target='_blank'>
 								<i class="fa fa-facebook fa-2x"></i>
 							</a>
 						</div>
 						<div class='large-3 small-6 columns'>
-							<a href='#'>
+							<a href='http://instagram.com/amaoficial' target='_blank'>
 								<i class="fa fa-instagram fa-2x"></i>
 							</a>
 						</div>
 						<div class='large-3 small-6 columns'>
-							<a href='#'>
+							<a href='https://soundcloud.com/ama-audio' target='_blank'>
 								<i class="fa fa-soundcloud fa-2x"></i>
 							</a>
 						</div>
@@ -563,24 +564,28 @@
 				removeGrays();
 			});
 			$("#filter-educational").click(function () {
-				removeGrays();
-				$(".ama-educational").addClass('grayed');
+				addGrays();
+				$(".ama-educational").removeClass('grayed');
 			});
 			$("#filter-personal").click(function () {
-				removeGrays();
-				$(".ama-personal").addClass('grayed');
+				addGrays();
+				$(".ama-personal").removeClass('grayed');
 			});
 			$("#filter-company").click(function () {
-				removeGrays();
-				$(".ama-company").addClass('grayed');
+				addGrays();
+				$(".ama-company").removeClass('grayed');
 			});
 			$("#filter-artists").click(function () {
-				removeGrays();
-				$(".ama-artists").addClass('grayed');
+				addGrays();
+				$(".ama-artists").removeClass('grayed');
 			});
 			
 			function removeGrays() {
-				$(".grayed").removeClass('grayed');
+				$(".canGray").removeClass('grayed');
+			}
+			
+			function addGrays() {
+				$(".canGray").addClass('grayed');
 			}
 		</script>
 		
