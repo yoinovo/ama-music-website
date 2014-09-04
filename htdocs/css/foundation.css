@@ -2976,7 +2976,7 @@ dialog.full, .reveal-modal.full {
 /* Tooltips */
 .has-tip {
   /*border-bottom: dotted 1px #cccccc;*/
-  cursor: help;
+  cursor: pointer;
   font-weight: bold;
   /*color: #333333; }*/
   color: #eee; }

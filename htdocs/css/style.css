@@ -91,11 +91,14 @@ button, .button {
 ul#mycarousel li h5 {
 	color: white;
 }
+	ul#mycarousel img{
+		cursor: pointer;
+	}
 
 div#header-menus h4 {
 	color: white;
 }
-div#quote_space h4 {
+div#quote_space h3 {
 	color: white;
 	text-shadow: 0px 0px 30px rgba(255, 255, 255, 1);
 }
@@ -121,6 +124,7 @@ header {
 	-webkit-box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
 	-moz-box-shadow:    0px 0px 15px rgba(255, 255, 255, 0.1);
 	box-shadow:         0px 0px 15px rgba(255, 255, 255, 0.1);
+	position: fixed;
 	
 }
 
@@ -199,7 +203,7 @@ footer {
 	}
 
 /* Color swatches */
-.white, .white h3, .white h4 {color: white;}
+.white, .white h3, .white h4 , .white h3 {color: white;}
 .gray-white, .gray-white h1, .gray-white h2, .gray-white h3, .gray-white h4, .gray-white h5, .gray-white h6, .gray-white span  {color: #CACCCC;}
 .blue {color: #3496DB;}
 .gray-black {color: #333333;}

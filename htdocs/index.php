@@ -66,7 +66,7 @@
 		
 		<header class='white'>
 			<div class='row wide'>
-				<div class='large-2 large-uncentered small-12 small-centered columns'>
+				<div class='large-2 large-uncentered small-8 small-centered columns'>
 					<div id='header-logo' class='text-center'>
 						<!-- <h3 class='no-margin'><strong>AMA<strong></h3> -->
 						<img src='img/logo-small-white.png' alt='AMA'/>
@@ -76,7 +76,7 @@
 					<div class='row'>
 						<div id='header-menus' class='text-center'>							
 							<div class='large-10 columns'>
-								<p class='no-margin text-left'>Propuesta de valor, propuesta de valor, text.</p>
+								<p class='no-margin text-left'>Convertimos tus ideas en música</p>
 							</div>
 							<div class='large-1 columns'>
 								<!-- <a><p>Menu A</p></a> -->
@@ -92,13 +92,13 @@
 					<div class='text-center'>
 						<div class='row'>
 							<div id='header-icons' class='margin-top-small'>
-								<div class='large-3 small-6 columns'>
+								<div class='large-3 small-12 columns'>
 									<a data-reveal-id="modal-contact">CONTACTO</a>
 									
 									
 									<div id="modal-contact" class="reveal-modal" data-reveal>
 										<h2>CONTACTO</h2>
-										<p class="lead">Haz realidad tu proyecto musical, contactanos directamente al numero <span class='blue'>+52 (33) 0000 0000</span>, escribenos a <a href="mailto:info@ama-creative.com"><span class="blue">info@ama-creative.com</span></a> o llena la siguiente forma.</p>
+										<p class="lead">Haz realidad tu proyecto musical, contactanos directamente a los números <span class='blue'>(044) 333 100 47 26</span>, <span class='blue'>(044) 333 559 73 74</span> o <span class='blue'>(044) 333 369 27 53</span>. Si lo deseas puedes escribirnos a <a href="mailto:info@ama-creative.com"><span class="blue">info@amamusical.com</span></a> o llenar la siguiente forma.</p>
 										
 										<form data-abide action="#" method='POST' class='custom'>
 											<div class='row'>
@@ -143,7 +143,7 @@
 										<a class="close-reveal-modal">&#215;</a>
 									</div>
 								</div>
-								<div class='large-3 small-6 columns'>
+								<div class='large-3 small-12 columns'>
 									<a data-reveal-id="modal-we">NOSOTROS</a>
 									<div id="modal-we" class="reveal-modal" data-reveal>
 										<h2>NOSOTROS</h2>
@@ -152,30 +152,30 @@
 											<div class="large-2 columns"><img src="/img/andres.jpg"/></div>
 											<div id="large-10 columns" class='margin-top-med'>
 												<h4><b>Andrés Malacara Mier y Terán</b></h4>
-												<p>Estudió Ingeniería en Audio (2006 - 2007), Producción Musical (2007 - 2008) y Mezcla y Masterizacón en Uxmalase. En 2010 estudió Producción y Post-producción de Cine y Televisión en Trebas Institute, en Toronto, Ontario, Canada. Actualmente estudia la licenciatura de Derecho en el ITESO.</p>
-												<a href="mailto:andres@ama-creative.com"><span class="blue">andres@ama-creative.com</span></a>
+												<p>Estudió Ingeniería en Audio (2006 - 2007), Producción Musical (2007 - 2008) y Mezcla y Masterizacón en Uxmalase. En 2010 estudió Producción y Post-producción de Cine y Televisión en Trebas Institute, en Toronto, Ontario, Canada. Actualmente estudia la licenciatura de Derecho en el ITESO. Es apasionado por el arte y su objetivo es profesionalizar los proyectos creativos.</p>
+												<a href="mailto:andres@amamusical.com"><span class="blue">andres@amamusical.com</span></a>
 											</div>
 										</div>
 										<div class="row margin-top-small">
 											<div class="large-2 columns"><img src="/img/carlos.jpg"/></div>
 											<div id="large-10 columns" class='margin-top-med'>
 												<h4><b>Carlos Andrés Arellano Pichardo</b></h4>
-												<p>Estudió Ingeniería en Audio (2006 - 2007), Producción Musical (2007 - 2008) y Mezcla y Masterizacón en Uxmalase. En 2011 estudió en Achemea College, en Londres, Inglaterra, en donde se graduó con un diplomado en Ingeniería en Audio en Estudio de Grabación y Audio en Vivo.</p>
-												<a href="mailto:carlos@ama-creative.com"><span class="blue">carlos@ama-creative.com</span></a>
+												<p>Estudió Ingeniería en Audio (2006 - 2007), Producción Musical (2007 - 2008) y Mezcla y Masterizacón en Uxmalase. En 2011 estudió en Achemea College, en Londres, Inglaterra, en donde se graduó con un diplomado en Ingeniería en Audio en Estudio de Grabación y Audio en Vivo. Es ingenioso para descubrir lo nuevo en el mundo del audio y para saber cómo aplicarlo en su trabajo, desde el punto de vista técnico y creativo.</p>
+												<a href="mailto:carlos@amamusical.com"><span class="blue">carlos@amamusical.com</span></a>
 											</div>
 										</div>
 										<div class="row margin-top-small">
 											<div class="large-2 columns"><img src="/img/david.jpg"/></div>
 											<div id="large-10 columns" class='margin-top-med'>
 												<h4><b>David Anguiano</b></h4>
-												<p>Experto en composición musical.</p>
-												<a href="mailto:david@ama-creative.com"><span class="blue">david@ama-creative.com</span></a>
+												<p>Compositor musical. Experto en transformar ideas, conceptos e historias en letras y melodías. Vive en el mundo de las ideas y su pasión es verlas manifestadas en música y nuevos modelos de negocio.</p>
+												<a href="mailto:david@amamusical.com"><span class="blue">david@amamusical.com</span></a>
 											</div>
 										</div>
 										<a class="close-reveal-modal">&#215;</a>
 									</div>
 								</div>
-								<div class='large-3 small-6 columns'>
+								<div class='large-3 small-12 columns'>
 									<a data-reveal-id="modal-services">SERVICIOS</a>
 									<div id="modal-services" class="reveal-modal" data-reveal>
 										<h2>SERVICIOS</h2>
@@ -229,14 +229,16 @@
 						<div class="row">
 							<div class="large-8 columns large-centered">
 								<div id='quote_space'>
-									<h4 class='margin-top-big'>
+									<h3 class='margin-top-big'>
+										"
 										<i>
 										<?php
 											$quote_number = rand(0, count($quotes) - 1);									
 											echo $quotes[$quote_number][0];
 										?>
+										"
 										</i>
-									</h4>
+									</h3>
 									<p class='margin-top-med text-right'>
 										<i>
 										<?php
@@ -346,7 +348,7 @@
 										<div class='row'>
 											<div class='large-12 large-centered columns'>
 												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163724150&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-												<p class='margin-top-med'>Proyecto en donde el equipo AMA compuso un tema para el patólogo y maestro de Kaplan Medical, en Estados Unidos, John Barone M.D. El tema explica la fisiopatología del tumor llamado Feocromocitoma, mediante una cómica historia de un chico muy feo en la disco.</p>
+												<p class='margin-top-med'>Esta canción fue un proyecto en donde compusimos un tema para el patólogo y maestro de Kaplan Medical, en Estados Unidos, John Barone M.D. El tema explica la fisiopatología del tumor llamado Feocromocitoma, mediante una cómica historia de un chico muy feo en la disco.</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
 												</div>
@@ -367,7 +369,7 @@
 										<div class='row'>
 											<div class='large-12 large-centered columns'>
 												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/101332520&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-												<p class='margin-top-med'>Composición para Contigo Avanzamos A.C., una fundación de Guadalajara cuya misión es inculcar valores en la sociedad mexicana.</p>
+												<p class='margin-top-med'>Esta canción la compusimos para Contigo Avanzamos, A.C., una fundación de Guadalajara cuya misión es inculcar valores en la sociedad mexicana.</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
 												</div>
@@ -388,7 +390,7 @@
 										<div class='row'>
 											<div class='large-12 large-centered columns'>
 												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163714730&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-												<p class='margin-top-med'>Composición especial de regalo de cumpleaños para una mujer de parte de su familia.</p>
+												<p class='margin-top-med'>Esta canción la compusimos como un regalo de cumpleaños que le dieron a una señora de parte de su familia.</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
 												</div>
@@ -408,8 +410,8 @@
 										<!-- <p class="lead">Your couch.  It is mine.</p> -->
 										<div class='row'>
 											<div class='large-12 large-centered columns'>
-												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163724150&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-												<p class='margin-top-med'>Proyecto de composición para el patólogo y maestro de Kaplan Medical, en Estados Unidos, John Barone M.D. El tema explica el Síndrome Nefrítico, mediante una historia del paciente ficticio Mr. Jones.</p>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/137954794&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+												<p class='margin-top-med'>Esta canción fue un proyecto en donde compusimos un tema para el patólogo y maestro de Kaplan Medical, en Estados Unidos, John Barone M.D. El tema explica el Síndrome Nefrítico, mediante una historia del paciente ficticio Mr. Jones.</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
 												</div>
@@ -430,7 +432,7 @@
 										<div class='row'>
 											<div class='large-12 large-centered columns'>
 												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/145935545&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-												<p class='margin-top-med'>Composición y producción para Mary Isabl, una artista de Guadalajara. El tema fué desarrollado en torno a una maqueta.</p>
+												<p class='margin-top-med'>Esta canción la compusimos y produjimos para Mary Isabl, una artista de Guadalajara. Ella llegó con una maqueta para que le desarrolláramos todo el tema.</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
 												</div>
@@ -451,7 +453,7 @@
 										<div class='row'>
 											<div class='large-12 large-centered columns'>
 												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163714616&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-												<p class='margin-top-med'>Composición y producción para Juan Pablo Carrasco, el tema fué presentado a una disquera importante.</p>
+												<p class='margin-top-med'>Esta canción la compusimos y produjimos para Juan Pablo Carrasco para presentarla a una disquera importante.</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
 												</div>
@@ -472,7 +474,7 @@
 										<div class='row'>
 											<div class='large-12 large-centered columns'>
 												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/111247562&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-												<p class='margin-top-med'>Canción producida con Eduardo Villaseñor "Müller"</p>
+												<p class='margin-top-med'>Esta canción la produjimos con Eduardo Villaseñor “Muller”.</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
 												</div>
