@@ -229,7 +229,7 @@
 						<div class="row">
 							<div class="large-8 columns large-centered">
 								<div id='quote_space'>
-									<h3 class='margin-top-big'>
+									<h2 class='margin-top-big'>
 										"
 										<i>
 										<?php
@@ -238,14 +238,14 @@
 										?>
 										"
 										</i>
-									</h3>
-									<p class='margin-top-med text-right'>
+									</h2>
+									<h4 class='margin-top-med text-right'>
 										<i>
 										<?php
 											echo $quotes[$quote_number][1];
 										?>
 										</i>
-									</p>
+									</h4>
 								</div>
 							</div>
 						</div>
@@ -292,7 +292,7 @@
 					</div>
 					<div class='large-4 columns'>
 						<div class='float-right'>
-							<ul class="small-block-grid-5">
+							<ul class="small-block-grid-6">
 								<li class='no-padding-bot'>
 									<a class='margin-right-small' id='filter-none'>
 										<span data-tooltip class="has-tip" title="Ver todos">
@@ -311,6 +311,13 @@
 									<a class='margin-right-small' id='filter-personal'>
 										<span data-tooltip class="has-tip" title="Regalos">
 											<i class="fa fa-gift fa-1x-med"></i>
+										</span>
+									</a>
+								</li>
+								<li class='no-padding-bot'>
+									<a class='margin-right-small' id='filter-post'>
+										<span data-tooltip class="has-tip" title="Post producción">
+											<i class="fa fa-video-camera fa-1x-med"></i>
 										</span>
 									</a>
 								</li>
@@ -346,7 +353,7 @@
 										<!-- Erase the next line comment if we want a subtitle -->
 										<!-- <p class="lead">Your couch.  It is mine.</p> -->
 										<div class='row'>
-											<div class='large-12 large-centered columns'>
+											<div class='large-10 large-centered columns'>
 												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163724150&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 												<p class='margin-top-med'>Esta canción fue un proyecto en donde compusimos un tema para el patólogo y maestro de Kaplan Medical, en Estados Unidos, John Barone M.D. El tema explica la fisiopatología del tumor llamado Feocromocitoma, mediante una cómica historia de un chico muy feo en la disco.</p>
 												<div class='text-center'>
@@ -367,7 +374,7 @@
 										<!-- Erase the next line comment if we want a subtitle -->
 										<!-- <p class="lead">Your couch.  It is mine.</p> -->
 										<div class='row'>
-											<div class='large-12 large-centered columns'>
+											<div class='large-10 large-centered columns'>
 												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/101332520&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 												<p class='margin-top-med'>Esta canción la compusimos para Contigo Avanzamos, A.C., una fundación de Guadalajara cuya misión es inculcar valores en la sociedad mexicana.</p>
 												<div class='text-center'>
@@ -388,7 +395,7 @@
 										<!-- Erase the next line comment if we want a subtitle -->
 										<!-- <p class="lead">Your couch.  It is mine.</p> -->
 										<div class='row'>
-											<div class='large-12 large-centered columns'>
+											<div class='large-10 large-centered columns'>
 												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163714730&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 												<p class='margin-top-med'>Esta canción la compusimos como un regalo de cumpleaños que le dieron a una señora de parte de su familia.</p>
 												<div class='text-center'>
@@ -409,7 +416,7 @@
 										<!-- Erase the next line comment if we want a subtitle -->
 										<!-- <p class="lead">Your couch.  It is mine.</p> -->
 										<div class='row'>
-											<div class='large-12 large-centered columns'>
+											<div class='large-10 large-centered columns'>
 												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/137954794&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 												<p class='margin-top-med'>Esta canción fue un proyecto en donde compusimos un tema para el patólogo y maestro de Kaplan Medical, en Estados Unidos, John Barone M.D. El tema explica el Síndrome Nefrítico, mediante una historia del paciente ficticio Mr. Jones.</p>
 												<div class='text-center'>
@@ -430,9 +437,30 @@
 										<!-- Erase the next line comment if we want a subtitle -->
 										<!-- <p class="lead">Your couch.  It is mine.</p> -->
 										<div class='row'>
-											<div class='large-12 large-centered columns'>
+											<div class='large-10 large-centered columns'>
 												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/145935545&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 												<p class='margin-top-med'>Esta canción la compusimos y produjimos para Mary Isabl, una artista de Guadalajara. Ella llegó con una maqueta para que le desarrolláramos todo el tema.</p>
+												<div class='text-center'>
+													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+												</div>
+											</div>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</li>
+								<li>
+									<img class='canGray ama-post' src="/img/pas.jpg" alt="Image 1" data-reveal-id="pas" />
+									<div class='text-center'>
+										<h5>Fundación PAS</h5>
+									</div>
+									<div id="pas" class="reveal-modal" data-reveal>
+										<h2>Fundación PAS</h2>
+										<!-- Erase the next line comment if we want a subtitle -->
+										<!-- <p class="lead">Your couch.  It is mine.</p> -->
+										<div class='row'>
+											<div class='large-10 large-centered columns'>
+												<iframe width="640" height="360" src="//www.youtube.com/embed/K1SWvlhI5tw" frameborder="0" allowfullscreen></iframe>
+												<p class='margin-top-med'>Para este video hicimos el dubbing mix de todo el audio con el objetivo de hacer que todo el sonido embone perfectamente. También, se hizo el master final.</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
 												</div>
@@ -572,6 +600,10 @@
 			$("#filter-personal").click(function () {
 				addGrays();
 				$(".ama-personal").removeClass('grayed');
+			});
+			$("#filter-post").click(function () {
+				addGrays();
+				$(".ama-post").removeClass('grayed');
 			});
 			$("#filter-company").click(function () {
 				addGrays();
