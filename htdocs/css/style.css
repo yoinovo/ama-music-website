@@ -25,6 +25,10 @@ body { height: auto; }
 #main_page { height:100%; width:100%; border-collapse:collapse; }
 
 /* Body definition */
+
+bigger {
+	font-size: 12px;
+}
 body {
 	font-family: "Open Sans Condensed", "Microsoft YaHei", "Hiragino Sans GB", "Hiragino Sans GB W3", "Helvetica Neue", Arial, sans-serif !important;
 }
