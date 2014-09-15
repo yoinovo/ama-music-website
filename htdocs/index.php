@@ -183,6 +183,10 @@
 										<div class='margin-top-small'>
 											<h3 class='nobreak'>En nuestro estudio</h3><!-- <p class='nobreak margin-left-small'>Grac asfsaf asfasfd</p> -->
 											<p>Grabación, mezcla, masterización y post-producción.</p>
+											<ul class="small-block-grid-3">
+												<li><img src="" alt="Foto"/></li>
+												<li><img src="" alt="Foto"/></li>
+											</ul>
 											<!-- <div class='row text-center'>
 												<div class='large-3 columns'>
 													<p>Grabación</p>
