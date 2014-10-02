@@ -1,4 +1,6 @@
 <?php
+	set_include_path(get_include_path() . PATH_SEPARATOR . '../includes');
+
 	$quotes = array(
 		array("One good thing about music, when it hits you, you feel no pain", "Bob Marley"),
 		array("Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything", "Plato"),
@@ -6,7 +8,7 @@
 		array("Music washes away from the soul the dust of everyday life.", "Berthold Auerbach"),
 		array("Music washes away from the soul the dust of everyday life.", "Jimi Hendrix"),
 		array("If my music can change someone’s mood for the better even a little bit, that’s amazing.", "Yanni"),
-	);	
+	);
 ?>
 
 <!DOCTYPE html>
@@ -100,7 +102,7 @@
 										<h2>CONTACTO</h2>
 										<p class="lead">Haz realidad tu proyecto musical, contactanos directamente a los números <span class='blue'>(044) 333 100 47 26</span>, <span class='blue'>(044) 333 559 73 74</span> o <span class='blue'>(044) 333 369 27 53</span>. Si lo deseas puedes escribirnos a <a href="mailto:info@ama-creative.com"><span class="blue">info@amamusical.com</span></a> o llenar la siguiente forma.</p>
 										
-										<form data-abide action="#" method='POST' class='custom'>
+										<form data-abide action="sendmail.php" method='POST' class='custom'>
 											<div class='row'>
 												<div class='row'>
 													<div class='large-4 columns'>
