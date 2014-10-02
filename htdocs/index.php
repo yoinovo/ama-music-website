@@ -8,7 +8,8 @@
 		array("Music washes away from the soul the dust of everyday life.", "Berthold Auerbach"),
 		array("Music washes away from the soul the dust of everyday life.", "Jimi Hendrix"),
 		array("If my music can change someone’s mood for the better even a little bit, that’s amazing.", "Yanni"),
-	);
+		array("If a single mind has been able to create a masterpiece, imagine what we could create all together...", "Aballoon"),
+	);	
 ?>
 
 <!DOCTYPE html>
@@ -78,7 +79,7 @@
 					<div class='row'>
 						<div id='header-menus' class='text-center'>							
 							<div class='large-10 columns'>
-								<p class='no-margin text-left'>Convertimos tus ideas en música</p>
+								<p class='bigger no-margin text-left'>Convertimos tus ideas en música</p>
 							</div>
 							<div class='large-1 columns'>
 								<!-- <a><p>Menu A</p></a> -->
