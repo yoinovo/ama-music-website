@@ -86,6 +86,15 @@ button, .button {
 .line-right {border-right: 1px solid #CACCCC;}
 
 /* AMA rules */
+.centered-image {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bigger {
+	font-size: 20px;
+}
+
 .background-wall { background: url("/img/white_wall_hash-2x.png") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
 .background-studio { background: url("/img/studio.png") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
 ul#mycarousel li h5 {
@@ -148,7 +157,7 @@ header {
 	}
 	
 	header #header-menus {
-		padding: 17px;
+		padding: 8px;
 	}
 	
 	header #header-icons {

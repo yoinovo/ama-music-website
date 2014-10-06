@@ -25,6 +25,7 @@
 
 		<!-- Own styles -->
 		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/lightbox.css">
 		
 		<!-- Font awesome -->
 		<link rel="stylesheet" href="css/font-awesome.css">
@@ -75,7 +76,7 @@
 						<img src='img/logo-small-white.png' alt='AMA'/>
 					</div>
 				</div>
-				<div class='large-4 columns'>
+				<div class='large-6 columns'>
 					<div class='row'>
 						<div id='header-menus' class='text-center'>							
 							<div class='large-10 columns'>
@@ -90,7 +91,7 @@
 						</div>
 					</div>
 				</div>
-				<div class='large-2 columns'></div>
+				<!-- <div class='large-2 columns'></div> -->
 				<div class='large-4 columns'>
 					<div class='text-center'>
 						<div class='row'>
@@ -181,14 +182,19 @@
 								<div class='large-3 small-12 columns'>
 									<a data-reveal-id="modal-services">SERVICIOS</a>
 									<div id="modal-services" class="reveal-modal" data-reveal>
-										<h2>SERVICIOS</h2>
-										<p class="lead">Otros de nuestros servicios:</p>
+										<h2>SERVICIOS</h2>										
+										<h3 class='nobreak'>Musica a la medida del cliente</h3>
+										<p>Componemos y producimos temas originales para tus necesidades de la manera mas creativa y profesional, música hecha a tu medida.</p>
 										<div class='margin-top-small'>
 											<h3 class='nobreak'>En nuestro estudio</h3><!-- <p class='nobreak margin-left-small'>Grac asfsaf asfasfd</p> -->
 											<p>Grabación, mezcla, masterización y post-producción.</p>
-											<ul class="small-block-grid-3">
-												<li><img src="" alt="Foto"/></li>
-												<li><img src="" alt="Foto"/></li>
+											<ul class="small-block-grid-6">
+												<li><a class="example-image-link" href="img/studio4.jpg" data-lightbox="example-1"><img class="example-image" src="img/studio4-thumb.jpg" alt="image-1" /></a></li>
+												<li><a class="example-image-link" href="img/studio1.jpg" data-lightbox="example-1"><img class="example-image" src="img/studio1-thumb.jpg" alt="image-1" /></a></li>
+												<li><a class="example-image-link" href="img/studio2.jpg" data-lightbox="example-1"><img class="example-image" src="img/studio2-thumb.jpg" alt="image-1" /></a></li>
+												<li><a class="example-image-link" href="img/studio3.jpg" data-lightbox="example-1"><img class="example-image" src="img/studio3-thumb.jpg" alt="image-1" /></a></li>
+												<li><a class="example-image-link" href="img/studio5.jpg" data-lightbox="example-1"><img class="example-image" src="img/studio5-thumb.jpg" alt="image-1" /></a></li>
+												<li><a class="example-image-link" href="img/studio6.jpg" data-lightbox="example-1"><img class="example-image" src="img/studio6-thumb.jpg" alt="image-1" /></a></li>
 											</ul>
 											<!-- <div class='row text-center'>
 												<div class='large-3 columns'>
@@ -299,7 +305,7 @@
 					</div>
 					<div class='large-4 columns'>
 						<div class='float-right'>
-							<ul class="small-block-grid-6">
+							<ul class="small-block-grid-7">
 								<li class='no-padding-bot'>
 									<a class='margin-right-small' id='filter-none'>
 										<span data-tooltip class="has-tip" title="Ver todos">
@@ -318,6 +324,13 @@
 									<a class='margin-right-small' id='filter-personal'>
 										<span data-tooltip class="has-tip" title="Regalos">
 											<i class="fa fa-gift fa-1x-med"></i>
+										</span>
+									</a>
+								</li>
+								<li class='no-padding-bot'>
+									<a class='margin-right-small' id='filter-weddings'>
+										<span data-tooltip class="has-tip" title="Bodas">
+											<i class="fa fa-heart fa-1x-med"></i>
 										</span>
 									</a>
 								</li>
@@ -414,18 +427,18 @@
 									</div>
 								</li>
 								<li>
-									<img class='canGray ama-educational' src="/img/lagrima.jpg" alt="Image 1" data-reveal-id="lagrima" />
+									<img class='canGray ama-weddings' src="/img/mariana-alex.jpg" alt="Image 1" data-reveal-id="mariana-alex" />
 									<div class='text-center'>
-										<h5>Lágrima al Riñón</h5>
+										<h5>Boda de Mariana y Alejandro</h5>
 									</div>
-									<div id="lagrima" class="reveal-modal" data-reveal>
-										<h2>Lágrima al Riñon</h2>
+									<div id="mariana-alex" class="reveal-modal" data-reveal>
+										<h2>Boda de Mariana y Alejandro</h2>
 										<!-- Erase the next line comment if we want a subtitle -->
 										<!-- <p class="lead">Your couch.  It is mine.</p> -->
 										<div class='row'>
 											<div class='large-10 large-centered columns'>
-												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/137954794&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-												<p class='margin-top-med'>Esta canción fue un proyecto en donde compusimos un tema para el patólogo y maestro de Kaplan Medical, en Estados Unidos, John Barone M.D. El tema explica el Síndrome Nefrítico, mediante una historia del paciente ficticio Mr. Jones.</p>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/170056467&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+												<p class='margin-top-med'>Canción creada en base a las experiencias vividas de una pareja que se conoce desde los 10 años, siendo esta canción un regalo único e invaluable de parte de la novia hacia el novio en su momento mas especial de sus vidas. Esta canción la compusimos para que la novia se la regalara a su novio el día de su boda.</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
 												</div>
@@ -447,6 +460,27 @@
 											<div class='large-10 large-centered columns'>
 												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/145935545&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 												<p class='margin-top-med'>Esta canción la compusimos y produjimos para Mary Isabl, una artista de Guadalajara. Ella llegó con una maqueta para que le desarrolláramos todo el tema.</p>
+												<div class='text-center'>
+													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+												</div>
+											</div>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</li>
+								<li>
+									<img class='canGray ama-educational' src="/img/lagrima.jpg" alt="Image 1" data-reveal-id="lagrima" />
+									<div class='text-center'>
+										<h5>Lágrima al Riñón</h5>
+									</div>
+									<div id="lagrima" class="reveal-modal" data-reveal>
+										<h2>Lágrima al Riñon</h2>
+										<!-- Erase the next line comment if we want a subtitle -->
+										<!-- <p class="lead">Your couch.  It is mine.</p> -->
+										<div class='row'>
+											<div class='large-10 large-centered columns'>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/137954794&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+												<p class='margin-top-med'>Esta canción fue un proyecto en donde compusimos un tema para el patólogo y maestro de Kaplan Medical, en Estados Unidos, John Barone M.D. El tema explica el Síndrome Nefrítico, mediante una historia del paciente ficticio Mr. Jones.</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
 												</div>
@@ -596,6 +630,15 @@
 		</footer>
 		
 		<!-- Footer scripts -->
+		
+		<!-- Carrousel -->
+		<script>
+			jQuery('#mycarousel').jcarousel({visible: 4});
+		</script>
+		
+		<!-- Lightbox -->
+		<script src="js/lightbox.js"></script>
+		
 		<script>
 			$("#filter-none").click(function () {
 				removeGrays();
@@ -603,22 +646,32 @@
 			$("#filter-educational").click(function () {
 				addGrays();
 				$(".ama-educational").removeClass('grayed');
+				$('.jcarousel').jcarousel('scroll', 0);
 			});
 			$("#filter-personal").click(function () {
 				addGrays();
 				$(".ama-personal").removeClass('grayed');
+				$('.jcarousel').jcarousel('scroll', 0);
+			});
+			$("#filter-weddings").click(function () {
+				addGrays();
+				$(".ama-weddings").removeClass('grayed');
+				$('.jcarousel').jcarousel('scroll', 2);
 			});
 			$("#filter-post").click(function () {
 				addGrays();
 				$(".ama-post").removeClass('grayed');
+				$('.jcarousel').jcarousel('scroll', 4);
 			});
 			$("#filter-company").click(function () {
 				addGrays();
 				$(".ama-company").removeClass('grayed');
+				$('.jcarousel').jcarousel('scroll', 0);
 			});
 			$("#filter-artists").click(function () {
 				addGrays();
 				$(".ama-artists").removeClass('grayed');
+				$('.jcarousel').jcarousel('scroll', 3);
 			});
 			
 			function removeGrays() {
@@ -630,35 +683,7 @@
 			}
 		</script>
 		
-		
 		<script src="js/foundation.min.js"></script>
-		<script src="js/jquery.cbpQTRotator.js"></script>
-		<script>
-			$( function() {
-				/*
-				- how to call the plugin:
-				$( selector ).cbpQTRotator( [options] );
-				- options:
-				{
-					// default transition speed (ms)
-					speed : 700,
-					// default transition easing
-					easing : 'ease',
-					// rotator interval (ms)
-					interval : 8000
-				}
-				- destroy:
-				$( selector ).cbpQTRotator( 'destroy' );
-				*/
-
-				$( '#cbp-qtrotator' ).cbpQTRotator();
-
-			} );
-		</script>
-		
-		<script>
-			jQuery('#mycarousel').jcarousel({visible: 4});
-		</script>
 		
 		<script>
 			$(document).foundation();
