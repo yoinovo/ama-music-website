@@ -1,5 +1,7 @@
 <?php
 	set_include_path(get_include_path() . PATH_SEPARATOR . '../includes');
+	
+	// AQUI PUEDO AGREGAR MIL COMENTARIOS MAS...
 
 	$quotes = array(
 		array("One good thing about music, when it hits you, you feel no pain", "Bob Marley"),
