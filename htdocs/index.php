@@ -365,6 +365,9 @@
 					<div class="jcarousel-wrapper no-margin">
 						<div class="jcarousel">
 							<ul id='mycarousel'>
+							
+								<!-- ESTOS "ul" SON PARA AGREGAR CANCIONES -->
+				
 								<li>
 									<img class='canGray ama-educational' src="/img/feosong.jpg" alt="Image 1" data-reveal-id="feosong" />
 									<div class='text-center'>
@@ -431,16 +434,36 @@
 								<li>
 									<img class='canGray ama-weddings' src="/img/mariana-alex.jpg" alt="Image 1" data-reveal-id="mariana-alex" />
 									<div class='text-center'>
-										<h5>Boda de Mariana y Alejandro</h5>
+										<h5>Cada Día Te Amo Más</h5>
 									</div>
 									<div id="mariana-alex" class="reveal-modal" data-reveal>
-										<h2>Boda de Mariana y Alejandro</h2>
+										<h2>Cada Día Te Amo Más (Boda de Mariana y Alejandro)</h2>
 										<!-- Erase the next line comment if we want a subtitle -->
 										<!-- <p class="lead">Your couch.  It is mine.</p> -->
 										<div class='row'>
 											<div class='large-10 large-centered columns'>
 												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/170056467&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 												<p class='margin-top-med'>Canción creada en base a las experiencias vividas de una pareja que se conoce desde los 10 años, siendo esta canción un regalo único e invaluable de parte de la novia hacia el novio en su momento mas especial de sus vidas. Esta canción la compusimos para que la novia se la regalara a su novio el día de su boda.</p>
+												<div class='text-center'>
+													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
+												</div>
+											</div>
+										</div>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+								</li>
+								<li> <!-- DEPENDE DE TI, DEPENDE DE MI -->
+									<img class='canGray ama-company' src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/65646_471424289601818_79963470_n.jpg?oh=84ae2a0ffbe3377c49c6bd637259c1fa&oe=54C6CE6E&__gda__=1420580659_35fe3381524d33068157b84f9adae0a4" alt="Image" data-reveal-id="u-sel" /> <!--AQUI CAMBIE EL NOMBRE DEL ID -->
+									<div class='text-center'>
+										<h5>Depende De Ti, Depende De Mi</h5>
+									</div>
+									<div id="u-sel" class="reveal-modal" data-reveal> <!-- AQUI TAMBIEN -->
+										<h2>Depende De Ti, Depende De Mi</h2>
+										<!-- Erase the next line comment if we want a subtitle -->
+										<!-- <p class="lead">Your couch.  It is mine.</p> -->
+										<div class='row'>
+											<div class='large-10 large-centered columns'>
+												<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/170962379&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe> <!--ESTO ES PARA CAMBIAR EL REPRODUCTOR Y LO DA SOUNDCLOUD EN SHARE Y LUEGO EMBEDED -->												<p class='margin-top-med'>Después de un concurso de la Fundación U-Sel en composición de letra con el tema de la "Vacuidad y la Interdependencia", se seleccionan un ganador en español y uno en inglés... Y AMA realizo la fusión de las letras y la composición original de una canción con 5 diferentes géneros musicales junto con 11 colaboradores... ¡Disfrútala¡</p>
 												<div class='text-center'>
 													<a class=button data-reveal-id="modal-contact">Contáctanos y haz realidad tu proyecto musical</a>
 												</div>
